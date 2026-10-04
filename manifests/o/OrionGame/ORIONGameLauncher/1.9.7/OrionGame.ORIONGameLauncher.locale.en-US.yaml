@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: OrionGame.ORIONGameLauncher
 PackageVersion: 1.9.7
@@ -24,4 +24,4 @@ Tags:
 - library
 ReleaseNotesUrl: https://github.com/Sikher-kisa/orion-game-launcher/releases/tag/v1.9.7
 ManifestType: defaultLocale
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0

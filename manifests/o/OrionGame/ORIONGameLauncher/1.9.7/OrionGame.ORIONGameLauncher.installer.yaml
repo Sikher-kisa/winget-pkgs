@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: OrionGame.ORIONGameLauncher
+PackageVersion: 1.9.7
+MinimumOSVersion: 10.0.17763.0
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silencieux
+  SilentWithProgress: --silencieux
+UpgradeBehavior: install
+ProductCode: ORION
+ReleaseDate: 2026-10-04
+AppsAndFeaturesEntries:
+- DisplayName: ORION
+  Publisher: ORION
+  DisplayVersion: 1.9.7
+  ProductCode: ORION
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Sikher-kisa/orion-game-launcher/releases/download/v1.9.7/Installateur-ORION.exe
+  InstallerSha256: 68FA6D69EB3FDB00F6FB4519A992082BFE601248124857221EBDA18998540B6F
+ManifestType: installer
+ManifestVersion: 1.10.0
